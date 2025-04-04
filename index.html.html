@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <style>
+        body{
+            /* height: 100vh; */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            background: linear-gradient(124deg, #e66465, #9198e5);
+        }
+        .papa{
+            width: 50vw;
+            /* height: 100vh; */
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            border-radius: 20px;
+            background: rgba(26, 3, 3, 0.2);
+             /* backdrop-filter: blur(10px);  */
+             /* -webkit-backdrop-filter: blur(10px);  */
+             /* border: 1px solid rgba(255, 255, 255, 0.3);  */
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        h1{
+            font-size: 60px;
+        }
+        .crt-btn{
+            font-size: 20px;
+            border: none;
+            padding: 15px 50px;
+            border-radius: 10px;
+            background-color: rgb(251, 192, 115);
+        }
+        .container {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            /* background-color: blue; */
+            margin: 20px;
+            gap: 15px; 
+}   
+        .box{
+            height: 200px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+            align-items: center;
+
+        }
+        textarea{
+            width: 100%;
+            height: 200px;
+            font-size: 16px;
+            resize: none;
+            box-sizing: border-box;
+            border: none;
+        }
+        .dlt-btn{
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+            align-self: last baseline;
+            /* margin: 10px; */
+            box-sizing: border-box;
+            font-size: 12px;
+            padding: 7px 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(251, 192, 115);
+        }
+        @media(max-width: 500px){
+            .papa{
+                width: 100vw;
+            }
+            .container{
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="papa">
+        <h1>Notes App</h1>
+        <button class="crt-btn">Create</button>
+        <div class="container">
+            <!-- <div class="box">
+                <textarea type="text" placeholder="Write your notes here!">
+                </textarea>
+                <button class="dlt-btn">Delete</button>
+            </div> -->
+           
+            
+        </div>
+    </div>
+    <script src="Question2.js"></script>
+</body>
+</html>                     
